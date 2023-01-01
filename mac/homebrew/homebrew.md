@@ -1,5 +1,3 @@
-# computer-setup
-
 ## 安装 homebrew 步骤
 
 ### 安装命令行工具（Command Line Tools (CLT) for Xcode）
