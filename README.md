@@ -26,11 +26,14 @@ xcode-select --install
 
 执行以下脚本（如果无法连接Github，请把脚本拷贝在本地，然后在本地执行）
 
-```shell
-# 对于 zsh 用户
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/asthetik/computer-setup/master/mac/homebrew/ustc/install.sh)"
+- 对于 zsh 用户
 
-# 对于 bash 用户
+```shell
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/asthetik/computer-setup/master/mac/homebrew/ustc/install.sh)"
+```
+- 对于 bash 用户
+
+```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/asthetik/computer-setup/master/mac/homebrew/ustc/install-bash.sh)"
 ```
 
@@ -40,11 +43,14 @@ xcode-select --install
 
 执行以下脚本（如果无法连接Github，请把脚本拷贝在本地，然后在本地执行）
 
-```shell
-# 对于 zsh 用户
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/asthetik/computer-setup/blob/master/mac/homebrew/tuna/install.sh)"
+- 对于 zsh 用户
 
-# 对于 bash 用户
+```shell
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/asthetik/computer-setup/blob/master/mac/homebrew/tuna/install.sh)"
+```
+- 对于 bash 用户
+
+```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/asthetik/computer-setup/master/mac/homebrew/tuna/install-bash.sh)"
 ```
 
