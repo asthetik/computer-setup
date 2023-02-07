@@ -1,3 +1,5 @@
+# computer-setup
+
 ## 安装 homebrew 步骤
 
 ### 安装命令行工具（Command Line Tools (CLT) for Xcode）
@@ -18,27 +20,21 @@ xcode-select --install
 
 ​	[清华大学Homebrew镜像使用帮助](https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/)  [中科大Homebrew镜像使用帮助](https://mirrors.ustc.edu.cn/help/brew.git.html)
 
-`注意，MacOS默认使用zsh，如果你使用的是bash，请自行更改配置环境变量的脚本`
-
-例如：
-
-```she
-# 对于 bash 用户
-echo 'export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.ustc.edu.cn/brew.git"' >> ~/.bash_profile
-
-# 对于 zsh 用户
-echo 'export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.ustc.edu.cn/brew.git"' >> ~/.zshrc
-
-```
-
-
+`注意，MacOS默认使用zsh，如果你使用的是bash，请执行对应的脚本`
 
 #### 使用中科大镜像源
 
 执行以下脚本（如果无法连接Github，请把脚本拷贝在本地，然后在本地执行）
 
+- 对于 zsh 用户
+
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/asthetik/computer-setup/master/mac/homebrew/ustc/install.sh)"
+```
+- 对于 bash 用户
+
+```shell
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/asthetik/computer-setup/master/mac/homebrew/ustc/install-bash.sh)"
 ```
 
 
@@ -47,8 +43,15 @@ echo 'export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.ustc.edu.cn/brew.git"' >>
 
 执行以下脚本（如果无法连接Github，请把脚本拷贝在本地，然后在本地执行）
 
+- 对于 zsh 用户
+
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/asthetik/computer-setup/blob/master/mac/homebrew/tuna/install.sh)"
+```
+- 对于 bash 用户
+
+```shell
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/asthetik/computer-setup/master/mac/homebrew/tuna/install-bash.sh)"
 ```
 
 
