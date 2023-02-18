@@ -1,5 +1,11 @@
 #!/bin/bash
 
+if [[ $SHELL == "/bin/zsh" ]]; then
+  SHELL_CONFIG_FILE="$HOME/.zprofile"
+else
+  SHELL_CONFIG_FILE="$HOME/.bash_profile"
+fi
+
 export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git"
 export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git"
 export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles"
@@ -9,10 +15,10 @@ git clone https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/install.git brew-ins
 
 /bin/bash brew-install/install.sh
 
-echo '# Set PATH, MANPATH, etc., for Homebrew.' >> ~/.zprofile
-echo 'export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git"' >> ~/.zprofile
-echo 'export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git"' >> ~/.zprofile
-echo 'export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles"' >> ~/.zprofile
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+echo '# Set PATH, MANPATH, etc., for Homebrew.' >> "$SHELL_CONFIG_FILE"
+echo 'export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git"' >> "$SHELL_CONFIG_FILE"
+echo 'export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git"' >> "$SHELL_CONFIG_FILE"
+echo 'export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles"' >> "$SHELL_CONFIG_FILE"
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> "$SHELL_CONFIG_FILE"
 
 eval $(/opt/homebrew/bin/brew shellenv)
