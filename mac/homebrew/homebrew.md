@@ -34,12 +34,12 @@ xcode-select --install
 执行以下脚本（如果无法连接Github，请把脚本拷贝在本地，然后在本地执行）
 
 ```shell
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/asthetik/computer-setup/blob/master/mac/homebrew/tuna/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/asthetik/computer-setup/master/mac/homebrew/tuna/install.sh)"
 ```
 #### 官方默认镜像
 
 ```shell
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/asthetik/computer-setup/blob/master/mac/homebrew/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/asthetik/computer-setup/master/mac/homebrew/install.sh)"
 ```
 
 
