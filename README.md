@@ -20,38 +20,26 @@ xcode-select --install
 
 ​	[清华大学Homebrew镜像使用帮助](https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/)  [中科大Homebrew镜像使用帮助](https://mirrors.ustc.edu.cn/help/brew.git.html)
 
-`注意，MacOS默认使用zsh，如果你使用的是bash，请执行对应的脚本`
+`注意，这是一个安装 Homebrew 的脚本，它可以在 Bash 和 Zsh 中都运行`
 
 #### 使用中科大镜像源
 
 执行以下脚本（如果无法连接Github，请把脚本拷贝在本地，然后在本地执行）
 
-- 对于 zsh 用户
-
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/asthetik/computer-setup/master/mac/homebrew/ustc/install.sh)"
 ```
-- 对于 bash 用户
-
-```shell
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/asthetik/computer-setup/master/mac/homebrew/ustc/install-bash.sh)"
-```
-
-
-
 #### 使用清华大学镜像源
 
 执行以下脚本（如果无法连接Github，请把脚本拷贝在本地，然后在本地执行）
 
-- 对于 zsh 用户
-
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/asthetik/computer-setup/blob/master/mac/homebrew/tuna/install.sh)"
 ```
-- 对于 bash 用户
+#### 官方默认镜像
 
 ```shell
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/asthetik/computer-setup/master/mac/homebrew/tuna/install-bash.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/asthetik/computer-setup/blob/master/mac/homebrew/install.sh)"
 ```
 
 
