@@ -30,11 +30,10 @@ jobs:
         run: |
           pwd
           echo "Run a script of the mirror source of the University of Science and Technology of China."
-          script_path="./mac/homebrew/ustc"
-          /bin/bash $script_path/install.sh
+          script_path="./mac/homebrew"
+          /bin/bash $script_path/install-cdn.sh
       - name: Verify Installation
         run: |
-          brew update
           brew --version
       - name: Replace existing repository upstream
         run: |
@@ -58,11 +57,10 @@ jobs:
         run: |
           pwd
           echo "Run the script of Tsinghua University mirror source."
-          script_path="./mac/homebrew/tuna"
-          /bin/bash $script_path/install.sh
+          script_path="./mac/homebrew"
+          /bin/bash $script_path/install-cdn.sh
       - name: Verify Installation
         run: |
-          brew update
           brew --version
       - name: Replace existing repository upstream
         run: |
