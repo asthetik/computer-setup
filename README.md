@@ -72,3 +72,21 @@ brew -v
 brew update
 ```
 
+## configurar fonts
+```shell
+brew tap homebrew/cask-fonts
+
+brew search jetbrains
+brew install font-jetbrains-mono-nerd-font
+```
+## neovim
+
+### install neovim
+```shell
+brew install neovim
+```
+
+### configurar lazynvim
+
+reference: [lazy nvim](https://github.com/folke/lazy.nvim)
+
