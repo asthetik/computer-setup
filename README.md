@@ -82,7 +82,7 @@ Visit [ronniedroid/getnf](https://github.com/ronniedroid/getnf) for an easy way 
 
 ### theme
 
-path: mac/extras/zenburned_oneDark.itermcolors
+custom theme: [extras/zenburned_onedark.itermcolors](https://raw.githubusercontent.com/asthetik/computer-setup/master/mac/extras/zenburned_onedark.itermcolors)
 
 reference:  [schemes/zenburned.itermcolors](https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/zenburned.itermcolors)
 
