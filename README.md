@@ -72,13 +72,22 @@ brew -v
 brew update
 ```
 
-## configurar fonts
-```shell
-brew tap homebrew/cask-fonts
 
-brew search jetbrains
-brew install font-jetbrains-mono-nerd-font
-```
+
+## iTerm2
+
+### Get Nerd Fonts
+
+Visit [ronniedroid/getnf](https://github.com/ronniedroid/getnf) for an easy way to install nerd fonts.
+
+### theme
+
+path: mac/extras/zenburned_oneDark.itermcolors
+
+reference:  [schemes/zenburned.itermcolors](https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/zenburned.itermcolors)
+
+
+
 ## neovim
 
 ### install neovim
@@ -86,7 +95,9 @@ brew install font-jetbrains-mono-nerd-font
 brew install neovim
 ```
 
-### configurar lazynvim
+### configurar nvim
 
-reference: [lazy nvim](https://github.com/folke/lazy.nvim)
+reference: [nvim-lua/kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)
+
+clone and custom: [asthetik/kickstart.nvim](https://github.com/asthetik/kickstart.nvim)
 
