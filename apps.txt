@@ -1,0 +1,11 @@
+iterm2
+firefox
+firefox@nightly
+google-chrome
+keepassxc
+visual-studio-code
+appcleaner
+sublime-text
+rectangle
+alt-tab
+alfred

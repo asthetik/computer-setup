@@ -30,15 +30,11 @@ xcode-select --install
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/asthetik/computer-setup/master/mac/homebrew/install.sh)"
 ```
 
-
-
 ### 测试是否安装成功
 
 ```shell
 brew -v
 ```
-
-
 
 ### 替换现有仓库上游
 
@@ -54,8 +50,6 @@ brew -v
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/asthetik/computer-setup/blob/master/mac/homebrew/ustc/mirrorSource.sh)"
 ```
 
-
-
 #### 使用清华大学镜像源
 
 执行以下脚本（如果无法连接Github，请把脚本拷贝在本地，然后在本地执行）
@@ -64,15 +58,17 @@ brew -v
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/asthetik/computer-setup/blob/master/mac/homebrew/tuna/mirrorSource.sh)"
 ```
 
-
-
 ### 更新 homebrew
 
 ```shell
 brew update
 ```
 
+## 下载一些必要的软件
 
+```shell
+xargs brew install < apps.txt
+```
 
 ## iTerm2
 
@@ -86,8 +82,6 @@ custom theme: [extras/zenburned_onedark.itermcolors](https://raw.githubuserconte
 
 reference:  [schemes/zenburned.itermcolors](https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/zenburned.itermcolors)
 
-
-
 ## neovim
 
 ### install neovim
@@ -100,4 +94,3 @@ brew install neovim
 reference: [nvim-lua/kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)
 
 clone and custom: [asthetik/kickstart.nvim](https://github.com/asthetik/kickstart.nvim)
-
