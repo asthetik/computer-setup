@@ -67,7 +67,7 @@ brew update
 ## 下载一些必要的软件
 
 ```shell
-xargs brew install < apps.txt
+curl -fsSL https://raw.githubusercontent.com/asthetik/computer-setup/refs/heads/master/apps.txt | xargs brew install
 ```
 
 ## iTerm2
