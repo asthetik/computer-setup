@@ -4,8 +4,10 @@ firefox@nightly
 google-chrome
 keepassxc
 visual-studio-code
+orbstack
 appcleaner
 sublime-text
 rectangle
 alt-tab
 alfred
+stats
