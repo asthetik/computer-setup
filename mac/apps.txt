@@ -1,5 +1,4 @@
 iterm2
-firefox
 firefox@nightly
 google-chrome
 keepassxc
