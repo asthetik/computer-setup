@@ -3,6 +3,7 @@ firefox@nightly
 google-chrome
 keepassxc
 visual-studio-code
+docker
 orbstack
 appcleaner
 sublime-text
